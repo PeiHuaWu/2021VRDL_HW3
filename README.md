@@ -36,16 +36,19 @@ Run this command to generate train.json in coco format from mask images.
 
 ## Training
 
-To train the model in the paper, run this command:
+First, run the following command and download train_all.json(https://drive.google.com/file/d/1s4SxQaStL5QRGww33ainXDgX9gbAcDTU/view?usp=sharing), and then put it in the folder "2021VRDL_HW3" :
 ```
 !git clone https://github.com/PeiHuaWu/2021VRDL_HW3.git
 %cd /content/2021VRDL_HW3
+```
+To train the model in the paper, run this command 
+```
 !python train.py   
 ```
 
-## Testing & Speed Benchmark
+## Testing
 
-To evaluate my model on detectron2, run:
+To evaluate my model on detectron2,  download the weight file first and put it in a folder "output", and run:
 ```
 !python inference.py
 ```
@@ -56,4 +59,4 @@ Please refer to [inference.ipynb](https://github.com/PeiHuaWu/2021VRDL_HW2/blob/
 
 You can also download the file here:
 
-- [The file of test.txt](https://drive.google.com/file/d/1dZdWxhHfwOKiUvjTGz1nA1JIVhhIULB6/view?usp=sharing)
+- [The file of weight.pth](https://drive.google.com/file/d/1dZdWxhHfwOKiUvjTGz1nA1JIVhhIULB6/view?usp=sharing)
