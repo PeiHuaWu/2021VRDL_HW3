@@ -21,6 +21,9 @@ torch:  1.10 ; cuda:  cu111
 ```
 
 ```
+import torch
+TORCH_VERSION = ".".join(torch.__version__.split(".")[:2])
+CUDA_VERSION = torch.__version__.split("+")[-1]
 !pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/$CUDA_VERSION/torch$TORCH_VERSION/index.html
 ```
 
