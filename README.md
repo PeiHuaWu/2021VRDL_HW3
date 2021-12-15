@@ -59,4 +59,4 @@ Please refer to [inference.ipynb](https://github.com/PeiHuaWu/2021VRDL_HW2/blob/
 
 You can also download the file here:
 
-- [The file of weight.pth](https://drive.google.com/file/d/1dZdWxhHfwOKiUvjTGz1nA1JIVhhIULB6/view?usp=sharing)
+- [The file of model_final.pth](https://drive.google.com/file/d/1dZdWxhHfwOKiUvjTGz1nA1JIVhhIULB6/view?usp=sharing)
