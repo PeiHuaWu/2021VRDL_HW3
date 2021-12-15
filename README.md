@@ -48,12 +48,8 @@ To train the model in the paper, run this command
 
 ## Testing
 
-To evaluate my model on detectron2,  download the weight file first and put it in a folder "output", and run:
-```
-!python inference.py
-```
+To evaluate my model on detectron2, please refer to [inference.ipynb](https://github.com/PeiHuaWu/2021VRDL_HW3/blob/main/inference.ipynb). You can download the required files in this python code, it's needless to download and upload the files by yourself.
 
-Please refer to [inference.ipynb](https://github.com/PeiHuaWu/2021VRDL_HW3/blob/main/inference.ipynb). You can download the required files in this python code, it's needless to download and upload the files by yourself.
 
 ## Files for downloading
 
