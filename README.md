@@ -36,7 +36,7 @@ Run this command to generate train.json in coco format from mask images.
 
 ## Training
 
-First, run the following command and download train_all.json(https://drive.google.com/file/d/1s4SxQaStL5QRGww33ainXDgX9gbAcDTU/view?usp=sharing), and then put it in the folder "2021VRDL_HW3" :
+First, run the following command and download [train_all.json](https://drive.google.com/file/d/1s4SxQaStL5QRGww33ainXDgX9gbAcDTU/view?usp=sharing), and then put it in the folder "2021VRDL_HW3" :
 ```
 !git clone https://github.com/PeiHuaWu/2021VRDL_HW3.git
 %cd /content/2021VRDL_HW3
